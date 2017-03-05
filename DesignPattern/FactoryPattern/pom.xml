@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     
     <parent>
-    <artifactId>DesignPattern</artifactId>
-    <groupId>org.ucf.java</groupId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
+    	<artifactId>DesignPattern</artifactId>
+    	<groupId>org.ucf.java</groupId>
+    	<version>0.0.1-SNAPSHOT</version>
+  	</parent>
   	<groupId>org.ucf.java.FactoryPattern</groupId>
   	<artifactId>FactoryPattern</artifactId>
   	<version>1.0.0</version>

@@ -6,6 +6,7 @@ package org.ucf.java.FactoryPattern;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.ucf.java.FactoryPattern.ShapeObject;;
 
 public class JavaTestApp extends TestCase{
 	  /**
@@ -30,6 +31,9 @@ public class JavaTestApp extends TestCase{
     public void testApp()
     {
     	System.out.println("Hello World From Java");
+    	ShapeFactory shapeFactory = new ShapeFactory();
+    	Shape shape1 = shapeFactory.getShape("circle");
+    	shape1.draw();
         assertTrue( true );
     }
 }
