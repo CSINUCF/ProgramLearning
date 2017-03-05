@@ -6,7 +6,6 @@ package org.ucf.java.FactoryPattern;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import org.ucf.java.FactoryPattern.ShapeObject;;
 
 public class JavaTestApp extends TestCase{
 	  /**
