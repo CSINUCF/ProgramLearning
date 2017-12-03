@@ -13,7 +13,9 @@
 	<modules>
   		<module>FactoryPattern</module>
   		<module>AbstractFactoryPattern</module>
-	</modules>
+        <module>SingletonPattern</module>
+        <module>BuilderPattern</module>
+    </modules>
     <properties>
        <scala.version>2.11.8</scala.version>
        <scala.binary.version>2.11</scala.binary.version>
